@@ -6,6 +6,7 @@ import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
 
 function MessageSender() {
+  const [input, setInput] = 
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -20,7 +21,7 @@ function MessageSender() {
             className="messageSender__input" 
             placeholder={`What's on your mind?`} 
           />
-          <input placeholder="Image URL (Optional)" />
+          <input placeholder="image URL (Optional)" />
 
           <button onClick={handleSubmit} type="submit">
             Hidden submit
