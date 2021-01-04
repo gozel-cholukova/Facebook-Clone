@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-.messageSender > input {
+.messageSender__input {
   flex: 1;
 }
 
